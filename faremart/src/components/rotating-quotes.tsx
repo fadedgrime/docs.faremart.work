@@ -5,8 +5,8 @@ import { useEffect, useRef, useState } from 'react';
 const QUOTES = [
   'Faremart brings everyday essentials to our community with care and consistency.',
   'From friendly service to fair prices — Faremart is built around people, not profit.',
-  'Our team focuses on reliability and quality so customers can rely on Faremart every day.',
-  'As a Harvesta subsidiary, Faremart blends community values with professional operations.',
+  'We focus on keeping our prices low and our community happy.',
+  'Official Harvesta subsidiary since 2024.',
 ];
 
 export default function RotatingQuotes({ interval = 10000 }: { interval?: number }) {
